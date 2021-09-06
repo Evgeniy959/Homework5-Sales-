@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>cba6bd67-b65e-4f02-988a-c0a10c44f2e0.SCHEMA:host1323541_sbd07</OriginalElement>
+  <nodes>
+    <node x="83.08035714285717" y="173.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_buyers</node>
+    <node x="408.75" y="173.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_products</node>
+    <node x="390.75" y="368.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_products_stock</node>
+    <node x="241.75" y="324.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_orders</node>
+    <node x="247.83035714285717" y="173.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_sellers</node>
+    <node x="320.0" y="22.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_positions</node>
+    <node x="0.0" y="11.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_discounts</node>
+    <node x="146.0" y="0.0">cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_people</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_orders" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_sellers" relationship="REFERENCES">
+      <point x="0.0" y="-94.5" />
+      <point x="306.25" y="299.0" />
+      <point x="312.33035714285717" y="299.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_orders" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_products" relationship="REFERENCES">
+      <point x="43.0" y="-94.5" />
+      <point x="349.25" y="299.0" />
+      <point x="471.75" y="299.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_sellers" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_positions" relationship="REFERENCES">
+      <point x="32.25" y="-50.5" />
+      <point x="344.58035714285717" y="148.0" />
+      <point x="389.5" y="148.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_orders" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_buyers" relationship="REFERENCES">
+      <point x="-43.0" y="-94.5" />
+      <point x="263.25" y="299.0" />
+      <point x="149.08035714285717" y="299.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_buyers" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_discounts" relationship="REFERENCES">
+      <point x="-33.0" y="-50.5" />
+      <point x="116.08035714285717" y="148.0" />
+      <point x="63.0" y="148.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_products_stock" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_products" relationship="REFERENCES">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_sellers" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_people" relationship="REFERENCES">
+      <point x="-32.25" y="-50.5" />
+      <point x="280.08035714285717" y="148.0" />
+      <point x="223.0" y="148.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_buyers" target="cba6bd67-b65e-4f02-988a-c0a10c44f2e0.TABLE:host1323541_sbd07.tab_people" relationship="REFERENCES">
+      <point x="33.0" y="-50.5" />
+      <point x="182.08035714285717" y="148.0" />
+      <point x="223.0" y="148.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6397748592870544" showDependencies="false" x="276.5" y="256.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
